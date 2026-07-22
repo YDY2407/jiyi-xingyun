@@ -73,6 +73,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: vendorChunk,
+        onlyExplicitManualChunks: true,
       },
     },
   },
